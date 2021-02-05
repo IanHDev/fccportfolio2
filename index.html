@@ -31,10 +31,10 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 <!-- Navigation Section: Dynamic navbar that sticks to the top of the page. -->
 
 <nav id="navbar">
-  <ul id="navbar_links">
+  <ul id="navbar-links">
     <li><a href="#about">About</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="#profile_link">Contact</a></li>
+    <li><a href="#project">Work</a></li>
+    <li><a href="#profile">Contact</a></li>
   </ul>
 </nav>
 
@@ -42,9 +42,8 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 
 <section id="welcome-section">
    
-  <!-- Image file is stored on github and linked to page. ?? Why do I need to do this? Can't I just link the associated file?-->
-  <img id="welcome_image" src="img/code-2858768_1280.png" alt="coding face background">
-  <div id="welcome_image_credit">
+  <img id="welcome-image" src="img/code-2858768_1280.png" alt="coding face background">
+  <div id="welcome-image-credit">
     Image by <a href="#">CREATOR</a>
   </div>
   <h1>Hi, I'm Ian</h1>
@@ -52,45 +51,61 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 
 </section>
 
-<!-- Project section: A snapshot of completed projects will be displayed, with a description of each below. Each project will have link to the codepen.io website where it is being hosted. There will also be link to the github file under the description tile -->
+<!-- Project section: A snapshot of completed projects will be displayed, with a description of each below. Each project will have link to the codepen.io website where it is being hosted. -->
 
-<section id="work">
+<section id="project">
   
-  <div class="work_tile">
-    <a href="https://codepen.io/IanHDev/pen/MNPwPv"><img src="#" onerror="#" alt="Tribute Page"></a>
+  <div class="project-tile">
+    <a href="https://codepen.io/IanHDev/pen/MNPwPv"><img src="img/tribute_screenshot.jpg" onerror="this.onerror=null; this.src='https://github.com/IanHDev/fccportfolio2/blob/master/img/tribute_screenshot.jpg?raw=true'" alt="Tribute Page"></a>
   </div>
-  <div class="work_tile_description">
+  <div class="project-tile-description">
     <a href="https://codepen.io/IanHDev/pen/MNPwPv">Tribute Page</a>
   </div>
-  <div class="work_tile">
-    <a href="https://codepen.io/IanHDev/pen/VwZKWra"><img src="#" onerror="#" alt="Tribute Page"></a>
+  <div class="project-tile">
+    <a href="https://codepen.io/IanHDev/pen/VwZKWra"><img src="img/survey_form_screenshot.jpg" alt="Tribute Page"></a>
   </div>
-  <div class="work_tile_description">
+  <div class="project-tile-description">
     <a href="https://codepen.io/IanHDev/pen/VwZKWra">Survey Form</a>
   </div>
-  <div class="work_tile">
-    <a href="https://codepen.io/IanHDev/details/LYPLNjZ"><img src="#" onerror="#" alt="Tribute Page"></a>
+  <div class="project-tile">
+    <a href="https://codepen.io/IanHDev/details/LYPLNjZ"><img src="img/landing_page_screenshot.jpg" alt="Tribute Page"></a>
   </div>
-  <div class="work_tile_description">
+  <div class="project-tile-description">
     <a href="https://codepen.io/IanHDev/details/LYPLNjZ">Product Landing Page</a>
   </div>
-  <div class="work_tile">
-    <a href="https://codepen.io/IanHDev/pen/GRKyYNa"><img src="#" onerror="#" alt="Tribute Page"></a>
+  <div class="projec-tile">
+    <a href="https://codepen.io/IanHDev/pen/GRKyYNa"><img src="img/technical_doc_screenshot.jpg"alt="Tribute Page"></a>
   </div>
-  <div class="work_tile_description">
+  <div class="project-tile-description">
     <a href="https://codepen.io/IanHDev/pen/GRKyYNa">Technical Documentation Page</a>
   </div>
 
 </section>
+<!-- Contact section provides various forms of contact, along with an email submission form with code similar to an earlier project (landing page). -->
 
-<section id="profile_link">
+<section id="profile">
   <H3>Let's work together...</H3>
-  <div id="contact_links">
+  <div>
     <ul>
-      <li class="contact_links_item">Github</li>
-      <li class="contact_links_item">Twitter</li>
-      <li class="contact_links_item">Call me</li>
+      <li class="profile-item">
+        <a href="https://github.com/IanHDev" target="blank">
+          Github
+        </a>
+      </li>
+      <li>
+        <a id="profile-link" href="https://www.freecodecamp.org/ianhdev" target="_blank">
+          Freecodecamp
+        </a>
+      </li>
+
+      <li class="profile-item">
+        <a href="https://twitter.com/IanHDev">
+          Twitter</a>
+        </li>
+      <li class="profile-item"><a href="tel:1111111111"> Call me</a></li>
+      <li class="profile-item"><a href="mailto:ianhindydev@gmail.com">Email me</a></li>
     </ul>
+  </div>
   <!-- Form contains an email submission box -->
   <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
     <h4>Join my mailing list:</h4>
