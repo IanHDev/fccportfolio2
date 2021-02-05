@@ -1,0 +1,16 @@
+html, body {
+  background-color: #252fa2;
+}
+
+#navbar {
+  background-color: #f64c72;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  padding:10px;
+}
+
+#welcome-section {
+  background-image: linear-gradient(to bottom right, #242582, #2f2fa2)
+}
