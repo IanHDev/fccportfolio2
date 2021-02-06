@@ -5,12 +5,20 @@ html, body {
 #navbar {
   background-color: #f64c72;
   position: fixed;
+  display:flex;
+  justify-content: flex-end;
   top:0;
   left:0;
   right:0;
   padding:10px;
 }
 
+#navbar-links {
+  display: flex;
+}
+
 #welcome-section {
   background-image: linear-gradient(to bottom right, #242582, #2f2fa2)
 }
+
+/* I'm currently working on getting the navbar properly setup. I need to decide if grid or flex will work better. I can then move on to the welcome section. Color profile I'm using can be found on the desktop*/
