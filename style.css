@@ -1,5 +1,9 @@
-html, body {
+html, 
+body {
   background-color: #252fa2;
+  color: white;
+  /* height:100%;
+  width: 100%; */
 }
 
 #navbar {
@@ -7,18 +11,59 @@ html, body {
   position: fixed;
   display:flex;
   justify-content: flex-end;
+  /* align-items: center; */
+  /* Is the align-items: center necessary in the parent container? */
+ 
   top:0;
   left:0;
   right:0;
-  padding:10px;
+  padding:20px;
 }
 
-#navbar-links {
-  display: flex;
+ul {
+  list-style-type: none;
 }
+
+.navbar-links {
+  display: flex;
+  padding: 5px 10px;
+  font-size: 1.8em;
+  /* text-decoration: none; */
+
+}
+
+.navbar-links 
+a:link, 
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 #welcome-section {
-  background-image: linear-gradient(to bottom right, #242582, #2f2fa2)
+  background-image: linear-gradient(to bottom right, #242582, #2f2fa2);
+  /* position: relative; */
+  text-align: center;
+  top: 83px;
+  padding-top: 83px;
+
 }
 
+
+}
+
+#welcome-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+
+}
+
+
+
 /* I'm currently working on getting the navbar properly setup. I need to decide if grid or flex will work better. I can then move on to the welcome section. Color profile I'm using can be found on the desktop*/
+/* Upon viewport resize, hide background image and just display text. 
+Overlay text on image. */
+
+/* push all sections down below menu */
