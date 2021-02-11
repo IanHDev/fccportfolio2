@@ -12,19 +12,28 @@ body {
   padding: 0;  
 }
 
+#nav-wrap {
+  position: fixed;
+  top: 0px;
+}
+
 #navbar {
   background-color: #f64c72;
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  /* background-color: #f64c72;
   position: fixed;
   display:flex;
   justify-content: flex-end;
   top: 0;
   /* align-items: center; */
   /* Is the align-items: center necessary in the parent container? */
- 
-  top:0;
-  left:0;
+  /* width: 100%; */
+  /* left:0;
   right:0;
-  padding:20px;
+  padding:20px; */
+ 
 }
 
 ul {
@@ -52,9 +61,9 @@ a:visited {
   /* display: block; */
   /* position: relative; */
   text-align: center;
-  /* margin-top: 100px; */
+  margin-top: 10px;
   /* margin-top: 85px; */
-  scroll-margin-top: 200rem;
+  /* scroll-margin-top: 200rem; */
   height: 100vh;
   
   
@@ -91,5 +100,8 @@ a:visited {
 Overlay text on image. */
 
 /* choose a font profile */
+
+/* Still working on getting the image to behave with the header. (Header needs to be on top) 
+also, vh seems to give an extra scroll on the side ( and likely the bottom), which is unecessary */
 
 
