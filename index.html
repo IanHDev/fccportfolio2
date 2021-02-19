@@ -30,15 +30,16 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 
 <!-- Navigation Section: Dynamic navbar that sticks to the top of the page. -->
 
-<nav id="nav-wrap">
+<div id="parent">
   <nav id="navbar">
-    <!-- <ul id="navbar-links"> -->
+    <ul>
       <li class="navbar-links"><a href="#welcome-section">About</a></li>
       <li class="navbar-links"><a href="#projects">Work</a></li>
       <li class="navbar-links"><a href="#profile">Contact</a></li>
     </ul>
   </nav>
-</nav>
+</div>
+
 <!-- Welcome section fills entirety of the viewport upon opening -->
 
 <section id="welcome-section">
@@ -52,7 +53,8 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 
   <div id="welcome-description">
      <h1>Hi, I'm Ian</h1>
-     <h2>A web developer</h2>
+     <br>
+     <h2>a web developer</h2>
   </div>
   
   
@@ -61,9 +63,11 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 </section>
 
 <!-- Project section: A snapshot of completed projects will be displayed, with a description of each below. Each project will have link to the codepen.io website where it is being hosted. -->
-
+  <div id="project-header">
+    These are some of my projects
+  </div>
 <section id="projects">
-  
+
   <div class="project-tile">
     <a href="https://codepen.io/IanHDev/pen/MNPwPv">
       <img src="img/tribute_screenshot.jpg" onerror="this.onerror=null; this.src='https://github.com/IanHDev/fccportfolio2/blob/master/img/tribute_screenshot.jpg?raw=true'" alt="Tribute Page">
